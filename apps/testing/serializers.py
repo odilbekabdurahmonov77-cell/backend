@@ -1,0 +1,37 @@
+from rest_framework import serializers
+from .models import Question, TestSession
+
+
+class LocalizedQuestionSerializer(serializers.ModelSerializer):
+    text = serializers.CharField(source="question_text")
+    options = serializers.SerializerMethodField()
+
+    class Meta:
+        model = Question
+        fields = ["id", "text", "options", "image_url", "category", "difficulty", "order"]
+
+    def get_options(self, obj):
+        return [obj.option_a, obj.option_b, obj.option_c, obj.option_d]
+
+
+class UserAnswerInputSerializer(serializers.Serializer):
+    question_id = serializers.IntegerField()
+    selected_index = serializers.IntegerField(
+        min_value=0, max_value=3, required=False, allow_null=True
+    )
+    time_spent = serializers.IntegerField(min_value=0, default=0)
+
+
+class SubmitTestSerializer(serializers.Serializer):
+    session_uuid = serializers.UUIDField()
+    answers = UserAnswerInputSerializer(many=True)
+
+
+class SessionResultSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = TestSession
+        fields = [
+            "uuid", "status", "language", "started_at", "finished_at",
+            "duration_seconds", "raw_score", "accuracy",
+            "iq_score", "percentile", "category_breakdown",
+        ]

@@ -1,0 +1,762 @@
+[
+  {
+    "model": "testing.question",
+    "pk": 1,
+    "fields": {
+      "question_text": "Keyingi son qaysi? 2, 4, 8, 16, ?",
+      "explanation": "Har bir had oldingisidan ikki barobar katta.",
+      "option_a": "18",
+      "option_b": "24",
+      "option_c": "32",
+      "option_d": "64",
+      "image_url": "",
+      "category": "numerical",
+      "difficulty": 1.0,
+      "correct_index": 2,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 2,
+    "fields": {
+      "question_text": "Ketma-ketlikni to'ldiring: 1, 1, 2, 3, 5, 8, ?",
+      "explanation": "Fibonachchi ketma-ketligi - har bir had oldingi ikkitasining yig'indisi.",
+      "option_a": "11",
+      "option_b": "12",
+      "option_c": "13",
+      "option_d": "15",
+      "image_url": "",
+      "category": "numerical",
+      "difficulty": 1.2,
+      "correct_index": 2,
+      "order": 2,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 3,
+    "fields": {
+      "question_text": "Keyingi son qaysi? 3, 6, 11, 18, 27, ?",
+      "explanation": "Farqlar har qadamda 2 ga ortadi (3, 5, 7, 9, 11).",
+      "option_a": "36",
+      "option_b": "38",
+      "option_c": "40",
+      "option_d": "42",
+      "image_url": "",
+      "category": "numerical",
+      "difficulty": 1.5,
+      "correct_index": 1,
+      "order": 3,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 4,
+    "fields": {
+      "question_text": "Yetishmayotgan sonni toping: 7, 14, 28, ?, 112",
+      "explanation": "Har bir had ikki barobar ortadi.",
+      "option_a": "42",
+      "option_b": "56",
+      "option_c": "64",
+      "option_d": "84",
+      "image_url": "",
+      "category": "numerical",
+      "difficulty": 1.4,
+      "correct_index": 1,
+      "order": 4,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 5,
+    "fields": {
+      "question_text": "Keyingi son qaysi? 100, 50, 25, 12.5, ?",
+      "explanation": "Har bir had ikki barobar kamayadi.",
+      "option_a": "5",
+      "option_b": "6",
+      "option_c": "6.25",
+      "option_d": "7.5",
+      "image_url": "",
+      "category": "numerical",
+      "difficulty": 1.3,
+      "correct_index": 2,
+      "order": 5,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 6,
+    "fields": {
+      "question_text": "To'ldiring: 2, 6, 12, 20, 30, ?",
+      "explanation": "n2 + n: 1x2, 2x3, 3x4, 4x5, 5x6, 6x7 = 42.",
+      "option_a": "40",
+      "option_b": "42",
+      "option_c": "44",
+      "option_d": "46",
+      "image_url": "",
+      "category": "numerical",
+      "difficulty": 1.7,
+      "correct_index": 1,
+      "order": 6,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 7,
+    "fields": {
+      "question_text": "Keyingi sonni toping: 1, 4, 9, 16, 25, ?",
+      "explanation": "To'liq kvadratlar: 1, 4, 9, 16, 25, 36.",
+      "option_a": "30",
+      "option_b": "34",
+      "option_c": "36",
+      "option_d": "49",
+      "image_url": "",
+      "category": "numerical",
+      "difficulty": 1.2,
+      "correct_index": 2,
+      "order": 7,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 8,
+    "fields": {
+      "question_text": "Keyingi son qaysi? 5, 11, 23, 47, ?",
+      "explanation": "Har bir had (oldingi x 2) + 1 ga teng.",
+      "option_a": "93",
+      "option_b": "94",
+      "option_c": "95",
+      "option_d": "96",
+      "image_url": "",
+      "category": "numerical",
+      "difficulty": 2.0,
+      "correct_index": 2,
+      "order": 8,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 9,
+    "fields": {
+      "question_text": "Yetishmayotgan son qaysi? 4, 9, 16, 25, 36, ?",
+      "explanation": "2, 3, 4, 5, 6, 7 ning kvadratlari = 49.",
+      "option_a": "47",
+      "option_b": "48",
+      "option_c": "49",
+      "option_d": "50",
+      "image_url": "",
+      "category": "numerical",
+      "difficulty": 1.3,
+      "correct_index": 2,
+      "order": 9,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 10,
+    "fields": {
+      "question_text": "Davom ettiring: 1, 8, 27, 64, ?",
+      "explanation": "To'liq kublar: 1, 8, 27, 64, 125.",
+      "option_a": "100",
+      "option_b": "121",
+      "option_c": "125",
+      "option_d": "216",
+      "image_url": "",
+      "category": "numerical",
+      "difficulty": 1.8,
+      "correct_index": 2,
+      "order": 10,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 11,
+    "fields": {
+      "question_text": "Qaysi shakl naqshni davom ettiradi? Ketma-ketlikda: doira, kvadrat, uchburchak, doira, kvadrat, ?",
+      "explanation": "Ketma-ketlik har 3 shaklda takrorlanadi.",
+      "option_a": "Doira",
+      "option_b": "Uchburchak",
+      "option_c": "Kvadrat",
+      "option_d": "Beshburchak",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSIzMCIgZmlsbD0iIzYzNjZmMSIvPjxyZWN0IHg9IjEyMCIgeT0iMjAiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgZmlsbD0iIzhjNWNmNiIvPjxwb2x5Z29uIHBvaW50cz0iMjUwLDIwIDIzMCw4MCAyNzAsODAiIGZpbGw9IiNhODVmZTkiLz48Y2lyY2xlIGN4PSIzNTAiIGN5PSI1MCIgcj0iMzAiIGZpbGw9IiM2MzY2ZjEiLz48L3N2Zz4=",
+      "category": "pattern",
+      "difficulty": 1.0,
+      "correct_index": 1,
+      "order": 11,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 12,
+    "fields": {
+      "question_text": "3x3 jadvalni qaysi shakl to'ldiradi? Har bir qatorda va ustunda bittadan doira, kvadrat va uchburchak bor.",
+      "explanation": "Yetishmayotgan katakda uchburchak bo'lishi kerak.",
+      "option_a": "Doira",
+      "option_b": "Kvadrat",
+      "option_c": "Uchburchak",
+      "option_d": "Beshburchak",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzFhMWEyZSIvPjxjaXJjbGUgY3g9IjMzIiBjeT0iMzMiIHI9IjE4IiBmaWxsPSIjNjM2NmYxIi8+PHJlY3QgeD0iODEiIHk9IjE1IiB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIGZpbGw9IiM4YzVjZjYiLz48cG9seWdvbiBwb2ludHM9IjE1MCwyMCAxMzUsNTAgMTY1LDUwIiBmaWxsPSIjYTg1ZmU5Ii8+PHJlY3QgeD0iMTUiIHk9IjgxIiB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIGZpbGw9IiM4YzVjZjYiLz48cG9seWdvbiBwb2ludHM9IjEwMCw2NSAxMDAsMTAwIDY1LDEwMCIgZmlsbD0iI2E4NWZlOSIvPjxjaXJjbGUgY3g9IjE2NyIgY3k9Ijk5IiByPSIxOCIgZmlsbD0iIzYzNjZmMSIvPjxjaXJjbGUgY3g9IjMzIiBjeT0iMTY3IiByPSIxOCIgZmlsbD0iIzYzNjZmMSIvPjxwb2x5Z29uIHBvaW50cz0iMTAwLDE1MCA4NSwxODAgMTE1LDE4MCIgZmlsbD0iI2E4NWZlOSIvPjxyZWN0IHg9IjE0OSIgeT0iMTQ5IiB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIGZpbGw9IiM4YzVjZjYiLz48L3N2Zz4=",
+      "category": "pattern",
+      "difficulty": 1.5,
+      "correct_index": 2,
+      "order": 12,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 13,
+    "fields": {
+      "question_text": "Aylanish ketma-ketligida qaysi shakl keyingi bo'ladi?",
+      "explanation": "O'q har qadamda soat yo'nalishida 90 daraja aylanadi.",
+      "option_a": "Tepaga",
+      "option_b": "O'ngga",
+      "option_c": "Pastga",
+      "option_d": "Chapga",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMTAwIj48cG9seWdvbiBwb2ludHM9IjUwLDIwIDMwLDYwIDcwLDYwIiBmaWxsPSIjNjM2NmYxIi8+PHBvbHlnb24gcG9pbnRzPSIxNTAsMjAgMTUwLDYwIDE5MCw0MCIgZmlsbD0iIzYzNjZmMSIvPjxwb2x5Z29uIHBvaW50cz0iMjUwLDYwIDIzMCwyMCAyNzAsMjAiIGZpbGw9IiM2MzY2ZjEiLz48L3N2Zz4=",
+      "category": "pattern",
+      "difficulty": 1.3,
+      "correct_index": 3,
+      "order": 13,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 14,
+    "fields": {
+      "question_text": "Ketma-ketlikni qaysi naqsh to'ldiradi?",
+      "explanation": "To'ldirilgan va bo'sh doiralar navbatlashadi.",
+      "option_a": "To'ldirilgan doira",
+      "option_b": "Bo'sh doira",
+      "option_c": "To'ldirilgan kvadrat",
+      "option_d": "Bo'sh kvadrat",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSIzMCIgZmlsbD0iIzYzNjZmMSIvPjxjaXJjbGUgY3g9IjE1MCIgY3k9IjUwIiByPSIzMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjM2NmYxIiBzdHJva2Utd2lkdGg9IjQiLz48Y2lyY2xlIGN4PSIyNTAiIGN5PSI1MCIgcj0iMzAiIGZpbGw9IiM2MzY2ZjEiLz48Y2lyY2xlIGN4PSIzNTAiIGN5PSI1MCIgcj0iMzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzYzNjZmMSIgc3Ryb2tlLXdpZHRoPSI0Ii8+PC9zdmc+",
+      "category": "pattern",
+      "difficulty": 1.2,
+      "correct_index": 0,
+      "order": 14,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 15,
+    "fields": {
+      "question_text": "Qaysi shakl keyingi bo'ladi? O'lchamlar ortib boradi: kichik, o'rta, katta, kichik, o'rta, ?",
+      "explanation": "O'lcham har 3 elementda takrorlanadi.",
+      "option_a": "Kichik",
+      "option_b": "O'rta",
+      "option_c": "Katta",
+      "option_d": "Juda katta",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSIxNSIgZmlsbD0iIzYzNjZmMSIvPjxjaXJjbGUgY3g9IjE1MCIgY3k9IjUwIiByPSIyNSIgZmlsbD0iIzhjNWNmNiIvPjxjaXJjbGUgY3g9IjI1MCIgY3k9IjUwIiByPSIzNSIgZmlsbD0iI2E4NWZlOSIvPjxjaXJjbGUgY3g9IjM1MCIgY3k9IjUwIiByPSIxNSIgZmlsbD0iIzYzNjZmMSIvPjwvc3ZnPg==",
+      "category": "pattern",
+      "difficulty": 1.4,
+      "correct_index": 2,
+      "order": 15,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 16,
+    "fields": {
+      "question_text": "Qaysi shakl ortiqcha?",
+      "explanation": "Bittasidan tashqari barcha shakllarning 4 tomoni bor - doiraning yo'q.",
+      "option_a": "Kvadrat",
+      "option_b": "To'g'ri to'rtburchak",
+      "option_c": "Doira",
+      "option_d": "Romb",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMTAwIj48cmVjdCB4PSIyMCIgeT0iMjAiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgZmlsbD0iIzYzNjZmMSIvPjxyZWN0IHg9IjExMCIgeT0iMzAiIHdpZHRoPSI4MCIgaGVpZ2h0PSI0MCIgZmlsbD0iIzhjNWNmNiIvPjxjaXJjbGUgY3g9IjI1MCIgY3k9IjUwIiByPSIzMCIgZmlsbD0iI2E4NWZlOSIvPjxwb2x5Z29uIHBvaW50cz0iMzUwLDIwIDMzMCw4MCAzNzAsODAiIGZpbGw9IiM2MzY2ZjEiLz48L3N2Zz4=",
+      "category": "pattern",
+      "difficulty": 1.6,
+      "correct_index": 2,
+      "order": 16,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 17,
+    "fields": {
+      "question_text": "Bu 2x2 jadvalda nechta kvadrat bor?",
+      "explanation": "To'rtta 1x1 kvadrat + bitta 2x2 kvadrat = 5.",
+      "option_a": "4",
+      "option_b": "5",
+      "option_c": "6",
+      "option_d": "8",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzFhMWEyZSIvPjxwYXRoIGQ9Ik0wLDEwMCBMMjAwLDEwMCBNMTAwLDAgTDEwMCwyMDAiIHN0cm9rZT0iIzYzNjZmMSIgc3Ryb2tlLXdpZHRoPSI0Ii8+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzYzNjZmMSIgc3Ryb2tlLXdpZHRoPSI0Ii8+PC9zdmc+",
+      "category": "pattern",
+      "difficulty": 2.2,
+      "correct_index": 1,
+      "order": 17,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 18,
+    "fields": {
+      "question_text": "Matritsani qaysi naqsh to'ldiradi?",
+      "explanation": "Har bir qator shaklni soat yo'nalishida 45 daraja aylantiradi.",
+      "option_a": "Romb",
+      "option_b": "Kvadrat",
+      "option_c": "Doira",
+      "option_d": "Yulduz",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzFhMWEyZSIvPjxyZWN0IHg9IjE1IiB5PSIxNSIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBmaWxsPSIjNjM2NmYxIi8+PHBvbHlnb24gcG9pbnRzPSIxMDAsMjAgODAsNjAgMTIwLDYwIiBmaWxsPSIjOGM1Y2Y2Ii8+PGNpcmNsZSBjeD0iMTY3IiBjeT0iMzUiIHI9IjE4IiBmaWxsPSIjYTg1ZmU5Ii8+PHBvbHlnb24gcG9pbnRzPSI1MCwxMTAgMzAsMTUwIDcwLDE1MCIgZmlsbD0iIzhjNWNmNiIvPjxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgcj0iMTgiIGZpbGw9IiNhODVmZTkiLz48cmVjdCB4PSIxNDkiIHk9IjgxIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9IiM2MzY2ZjEiLz48Y2lyY2xlIGN4PSIzNSIgY3k9IjE2NyIgcj0iMTgiIGZpbGw9IiNhODVmZTkiLz48cmVjdCB4PSI4MSIgeT0iMTQ5IiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9IiM2MzY2ZjEiLz48cG9seWdvbiBwb2ludHM9IjE2NywxNTAgMTQ3LDE4MCAxODcsMTgwIiBmaWxsPSIjOGM1Y2Y2Ii8+PC9zdmc+",
+      "category": "pattern",
+      "difficulty": 2.4,
+      "correct_index": 0,
+      "order": 18,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 19,
+    "fields": {
+      "question_text": "Navbatlashuvchi ketma-ketlikni qaysi shakl tugatadi?",
+      "explanation": "Naqsh ikki shakl o'rtasida navbatlashadi.",
+      "option_a": "Uchburchak",
+      "option_b": "Kvadrat",
+      "option_c": "Doira",
+      "option_d": "Beshburchak",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMTAwIj48cG9seWdvbiBwb2ludHM9IjUwLDIwIDMwLDgwIDcwLDgwIiBmaWxsPSIjNjM2NmYxIi8+PHJlY3QgeD0iMTEwIiB5PSIyMCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiBmaWxsPSIjOGM1Y2Y2Ii8+PHBvbHlnb24gcG9pbnRzPSIyNTAsMjAgMjMwLDgwIDI3MCw4MCIgZmlsbD0iIzYzNjZmMSIvPjxyZWN0IHg9IjMxMCIgeT0iMjAiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgZmlsbD0iIzhjNWNmNiIvPjwvc3ZnPg==",
+      "category": "pattern",
+      "difficulty": 1.1,
+      "correct_index": 0,
+      "order": 19,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 20,
+    "fields": {
+      "question_text": "Nuqtalar ketma-ketligini qaysi shakl to'ldiradi?",
+      "explanation": "Nuqtalar har qadamda 3 ga ortadi: 1, 4, 7, 10.",
+      "option_a": "7 nuqta",
+      "option_b": "8 nuqta",
+      "option_c": "10 nuqta",
+      "option_d": "12 nuqta",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI4IiBmaWxsPSIjNjM2NmYxIi8+PGcgZmlsbD0iIzhjNWNmNiI+PGNpcmNsZSBjeD0iMTQwIiBjeT0iMzAiIHI9IjgiLz48Y2lyY2xlIGN4PSIxNTUiIGN5PSI1MCIgcj0iOCIvPjxjaXJjbGUgY3g9IjE0MCIgY3k9IjcwIiByPSI4Ii8+PGNpcmNsZSBjeD0iMTI1IiBjeT0iNTAiIHI9IjgiLz48L2c+PGcgZmlsbD0iI2E4NWZlOSI+PGNpcmNsZSBjeD0iMjQwIiBjeT0iMjAiIHI9IjgiLz48Y2lyY2xlIGN4PSIyNzAiIGN5PSIyMCIgcj0iOCIvPjxjaXJjbGUgY3g9IjI0MCIgY3k9IjUwIiByPSI4Ii8+PGNpcmNsZSBjeD0iMjcwIiBjeT0iNTAiIHI9IjgiLz48Y2lyY2xlIGN4PSIyNTUiIGN5PSI4MCIgcj0iOCIvPjxjaXJjbGUgY3g9IjI0MCIgY3k9IjcwIiByPSI4Ii8+PGNpcmNsZSBjeD0iMjcwIiBjeT0iNzAiIHI9IjgiLz48L2c+PC9zdmc+",
+      "category": "pattern",
+      "difficulty": 1.9,
+      "correct_index": 2,
+      "order": 20,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 21,
+    "fields": {
+      "question_text": "Bu yoyilmani yig'ganda qanday hajmli shakl hosil bo'ladi?",
+      "explanation": "Oltita teng kvadrat kub hosil qiladi.",
+      "option_a": "Silindr",
+      "option_b": "Kub",
+      "option_c": "Piramida",
+      "option_d": "Shar",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzFhMWEyZSIvPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzYzNjZmMSIgc3Ryb2tlLXdpZHRoPSIzIj48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIvPjxyZWN0IHg9IjcwIiB5PSIxMCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIi8+PHJlY3QgeD0iNzAiIHk9IjEzMCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIi8+PHJlY3QgeD0iMTAiIHk9IjcwIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiLz48cmVjdCB4PSIxMzAiIHk9IjcwIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiLz48L2c+PC9zdmc+",
+      "category": "spatial",
+      "difficulty": 1.4,
+      "correct_index": 1,
+      "order": 21,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 22,
+    "fields": {
+      "question_text": "Bu to'plamda nechta kub bor?",
+      "explanation": "Pastki qatlam: 4, yuqori qatlam: 1 = jami 5.",
+      "option_a": "4",
+      "option_b": "5",
+      "option_c": "6",
+      "option_d": "8",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzFhMWEyZSIvPjxnIGZpbGw9IiM2MzY2ZjEiIHN0cm9rZT0iIzhjNWNmNiIgc3Ryb2tlLXdpZHRoPSIyIj48cmVjdCB4PSI0MCIgeT0iMTMwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiLz48cmVjdCB4PSI4MCIgeT0iMTMwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiLz48cmVjdCB4PSIxMjAiIHk9IjEzMCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIi8+PHJlY3QgeD0iNjAiIHk9IjkwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiLz48cmVjdCB4PSIxMDAiIHk9IjkwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiLz48L2c+PC9zdmc+",
+      "category": "spatial",
+      "difficulty": 1.7,
+      "correct_index": 1,
+      "order": 22,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 23,
+    "fields": {
+      "question_text": "Kvadratni qaysi bo'lak to'ldiradi?",
+      "explanation": "Yetishmayotgan chorak - uchburchak.",
+      "option_a": "Uchburchak",
+      "option_b": "Kvadrat",
+      "option_c": "Doira",
+      "option_d": "Beshburchak",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzFhMWEyZSIvPjxwb2x5Z29uIHBvaW50cz0iMCwwIDEwMCwwIDEwMCwxMDAiIGZpbGw9IiM2MzY2ZjEiLz48cG9seWdvbiBwb2ludHM9IjEwMCwwIDIwMCwwIDIwMCwxMDAiIGZpbGw9IiM4YzVjZjYiLz48cG9seWdvbiBwb2ludHM9IjAsMTAwIDEwMCwxMDAgMCwyMDAiIGZpbGw9IiNhODVmZTkiLz48L3N2Zz4=",
+      "category": "spatial",
+      "difficulty": 1.5,
+      "correct_index": 0,
+      "order": 23,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 24,
+    "fields": {
+      "question_text": "Bu jismning yuqoridan ko'rinishi qanday?",
+      "explanation": "Piramidaga yuqoridan qaralganda kvadrat ko'rinadi.",
+      "option_a": "Uchburchak",
+      "option_b": "Doira",
+      "option_c": "Kvadrat",
+      "option_d": "To'g'ri to'rtburchak",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzFhMWEyZSIvPjxwb2x5Z29uIHBvaW50cz0iMTAwLDMwIDMwLDE3MCAxNzAsMTcwIiBmaWxsPSIjNjM2NmYxIi8+PC9zdmc+",
+      "category": "spatial",
+      "difficulty": 1.6,
+      "correct_index": 2,
+      "order": 24,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 25,
+    "fields": {
+      "question_text": "Agar bu shakl 180 daraja aylantirilsa, u qanday ko'rinadi?",
+      "explanation": "180 daraja aylantirish shaklni teskari qiladi.",
+      "option_a": "Tik holatda",
+      "option_b": "Teskari",
+      "option_c": "Chapga-onga",
+      "option_d": "Yassilangan",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzFhMWEyZSIvPjxwb2x5Z29uIHBvaW50cz0iNTAsNTAgMTUwLDUwIDEwMCwxNTAiIGZpbGw9IiM2MzY2ZjEiLz48L3N2Zz4=",
+      "category": "spatial",
+      "difficulty": 1.8,
+      "correct_index": 1,
+      "order": 25,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 26,
+    "fields": {
+      "question_text": "Qaysi yoyilma uchburchakli piramidaga aylanadi?",
+      "explanation": "To'rtta uchburchak tetraedr hosil qiladi.",
+      "option_a": "Kvadrat yoyilma",
+      "option_b": "Uchburchak yoyilma",
+      "option_c": "Doira yoyilma",
+      "option_d": "Xoch yoyilma",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzFhMWEyZSIvPjxwb2x5Z29uIHBvaW50cz0iMTAwLDMwIDUwLDE0MCAxNTAsMTQwIiBmaWxsPSIjNjM2NmYxIi8+PHBvbHlnb24gcG9pbnRzPSI1MCwxNDAgMTAsMTgwIDkwLDE4MCIgZmlsbD0iIzhjNWNmNiIvPjxwb2x5Z29uIHBvaW50cz0iMTUwLDE0MCAxMTAsMTgwIDE5MCwxODAiIGZpbGw9IiNhODVmZTkiLz48L3N2Zz4=",
+      "category": "spatial",
+      "difficulty": 2.2,
+      "correct_index": 1,
+      "order": 26,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 27,
+    "fields": {
+      "question_text": "Bu jismning nechta yog'i bor?",
+      "explanation": "Olti burchakli prizmaning 8 yog'i bor.",
+      "option_a": "4",
+      "option_b": "6",
+      "option_c": "8",
+      "option_d": "10",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzFhMWEyZSIvPjxwb2x5Z29uIHBvaW50cz0iNTAsNzAgMTAwLDQwIDE1MCw3MCAxNTAsMTMwIDEwMCwxNjAgNTAsMTMwIiBmaWxsPSIjNjM2NmYxIi8+PC9zdmc+",
+      "category": "spatial",
+      "difficulty": 2.5,
+      "correct_index": 2,
+      "order": 27,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 28,
+    "fields": {
+      "question_text": "Kubning qaysi tomoni old tomondan qaralganda ko'rinmaydi?",
+      "explanation": "Har qanday burchakdan kubning faqat 3 yog'i ko'rinadi.",
+      "option_a": "Yuqori",
+      "option_b": "Pastki",
+      "option_c": "Orqa",
+      "option_d": "Old",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzFhMWEyZSIvPjxwb2x5Z29uIHBvaW50cz0iNTAsNTAgMTUwLDUwIDE1MCwxNTAgNTAsMTUwIiBmaWxsPSIjNjM2NmYxIi8+PHBvbHlnb24gcG9pbnRzPSI1MCw1MCAxMDAsMjAgMjAwLDIwIDE1MCw1MCIgZmlsbD0iIzhjNWNmNiIvPjxwb2x5Z29uIHBvaW50cz0iMTUwLDUwIDIwMCwyMCAyMDAsMTIwIDE1MCwxNTAiIGZpbGw9IiNhODVmZTkiLz48L3N2Zz4=",
+      "category": "spatial",
+      "difficulty": 2.0,
+      "correct_index": 2,
+      "order": 28,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 29,
+    "fields": {
+      "question_text": "Qaysi shakl o'zi bilan tekislikni qoplay olmaydi?",
+      "explanation": "Beshburchaklar o'z-o'zidan tekislikni qoplay olmaydi.",
+      "option_a": "Uchburchak",
+      "option_b": "Kvadrat",
+      "option_c": "Beshburchak",
+      "option_d": "Oltiburchak",
+      "image_url": "",
+      "category": "spatial",
+      "difficulty": 2.3,
+      "correct_index": 2,
+      "order": 29,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 30,
+    "fields": {
+      "question_text": "Qaysi jismning 6 ta qirrasi bor?",
+      "explanation": "Uchburchakli prizmaning 9 qirrasi bor; tetraedrning 6.",
+      "option_a": "Kub",
+      "option_b": "Tetraedr",
+      "option_c": "Oktaedr",
+      "option_d": "Dodekaedr",
+      "image_url": "",
+      "category": "spatial",
+      "difficulty": 2.4,
+      "correct_index": 1,
+      "order": 30,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 31,
+    "fields": {
+      "question_text": "Barcha Blooplar Razzilar. Barcha Razzilar Lazzilar. Demak:",
+      "explanation": "Tranzitivlik bo'yicha barcha Blooplar Lazzilar.",
+      "option_a": "Barcha Blooplar Lazzilar",
+      "option_b": "Hech qanday Bloop Lazzi emas",
+      "option_c": "Ba'zi Lazzilar Blooplar",
+      "option_d": "Aniqlab bo'lmaydi",
+      "image_url": "",
+      "category": "abstract",
+      "difficulty": 1.3,
+      "correct_index": 0,
+      "order": 31,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 32,
+    "fields": {
+      "question_text": "Agar A > B va B > C bo'lsa, unda:",
+      "explanation": "Kattalik munosabatining tranzitivligi.",
+      "option_a": "A > C",
+      "option_b": "A < C",
+      "option_c": "A = C",
+      "option_d": "Aniqlab bo'lmaydi",
+      "image_url": "",
+      "category": "abstract",
+      "difficulty": 1.0,
+      "correct_index": 0,
+      "order": 32,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 33,
+    "fields": {
+      "question_text": "Ba'zi mushuklar qora. Ba'zi qora narsalar yumshoq. Qaysi biri MAJBURAN to'g'ri?",
+      "explanation": "Faqat 'ba'zi mushuklar yumshoq bo'lishi mumkin' degan xulosa chiqadi.",
+      "option_a": "Barcha mushuklar yumshoq",
+      "option_b": "Ba'zi mushuklar yumshoq",
+      "option_c": "Hech qanday mushuk yumshoq emas",
+      "option_d": "Yuqoridagilarning hech biri majburan to'g'ri emas",
+      "image_url": "",
+      "category": "abstract",
+      "difficulty": 2.0,
+      "correct_index": 3,
+      "order": 33,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 34,
+    "fields": {
+      "question_text": "Ortiqchasini toping: 3, 5, 7, 9, 11",
+      "explanation": "9 dan tashqari barchasi tub sonlar.",
+      "option_a": "3",
+      "option_b": "5",
+      "option_c": "9",
+      "option_d": "11",
+      "image_url": "",
+      "category": "abstract",
+      "difficulty": 1.2,
+      "correct_index": 2,
+      "order": 34,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 35,
+    "fields": {
+      "question_text": "Agar bugun chorshanba bo'lsa, 100 kundan keyin qaysi kun bo'ladi?",
+      "explanation": "100 / 7 = 14 hafta + 2 kun. Chorshanba + 2 = Juma.",
+      "option_a": "Payshanba",
+      "option_b": "Juma",
+      "option_c": "Shanba",
+      "option_d": "Yakshanba",
+      "image_url": "",
+      "category": "abstract",
+      "difficulty": 2.1,
+      "correct_index": 1,
+      "order": 35,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 36,
+    "fields": {
+      "question_text": "Qaysi so'z mos kelmaydi: olma, banan, sabzi, apelsin",
+      "explanation": "Sabzi - sabzavot, qolganlari meva.",
+      "option_a": "Olma",
+      "option_b": "Banan",
+      "option_c": "Sabzi",
+      "option_d": "Apelsin",
+      "image_url": "",
+      "category": "abstract",
+      "difficulty": 1.1,
+      "correct_index": 2,
+      "order": 36,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 37,
+    "fields": {
+      "question_text": "A - B ning akasi. B - C ning singlisi. C - D ning otasi. A D ga qanday qarindosh?",
+      "explanation": "A - C ning akasi, demak A - D ning amakisi.",
+      "option_a": "Otasi",
+      "option_b": "Amakisi",
+      "option_c": "Akasi",
+      "option_d": "Bobosi",
+      "image_url": "",
+      "category": "abstract",
+      "difficulty": 2.2,
+      "correct_index": 1,
+      "order": 37,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 38,
+    "fields": {
+      "question_text": "Agar CAT so'zi 3-1-20 deb kodlansa, DOG qanday kodlanadi?",
+      "explanation": "Har bir harfning kodi - alifbodagi tartib raqami: D=4, O=15, G=7.",
+      "option_a": "4-15-7",
+      "option_b": "4-14-7",
+      "option_c": "3-15-8",
+      "option_d": "4-16-7",
+      "image_url": "",
+      "category": "abstract",
+      "difficulty": 2.0,
+      "correct_index": 0,
+      "order": 38,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 39,
+    "fields": {
+      "question_text": "Barcha atirgullar gul. Ba'zi gullar tez so'liydi. Demak:",
+      "explanation": "Atirgullarning so'lishi haqida aniq xulosa chiqarib bo'lmaydi.",
+      "option_a": "Barcha atirgullar tez so'liydi",
+      "option_b": "Hech qanday atirgul so'limaydi",
+      "option_c": "Ba'zi atirgullar tez so'lishi mumkin",
+      "option_d": "Atirgullar gul emas",
+      "image_url": "",
+      "category": "abstract",
+      "difficulty": 2.4,
+      "correct_index": 2,
+      "order": 39,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  },
+  {
+    "model": "testing.question",
+    "pk": 40,
+    "fields": {
+      "question_text": "Yetishmayotgan harfni toping: A, C, F, J, O, ?",
+      "explanation": "Farqlar: 2, 3, 4, 5, 6. O + 6 = U.",
+      "option_a": "S",
+      "option_b": "T",
+      "option_c": "U",
+      "option_d": "V",
+      "image_url": "",
+      "category": "abstract",
+      "difficulty": 2.3,
+      "correct_index": 2,
+      "order": 40,
+      "is_active": true,
+      "created_at": "2026-09-19T00:00:00Z"
+    }
+  }
+]
